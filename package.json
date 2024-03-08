@@ -1,0 +1,15 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "Serve API for db.json file that contains users, posts, comments, photos, albums and todos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch db.json --port 3001 --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
